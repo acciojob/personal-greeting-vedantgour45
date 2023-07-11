@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Greet.css"
 
 export default function Greet() {
   const [name, setName] = useState("");
@@ -9,7 +10,7 @@ export default function Greet() {
 
   return (
     <div>
-      <div>
+      <div className="form">
         <label htmlFor="inputName">Enter your name:</label>
         <input type="text" onChange={inputChangeHandler} id="inputName" />
       </div>
