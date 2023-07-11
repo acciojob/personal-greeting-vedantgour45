@@ -4,11 +4,7 @@ import Greet from "./Greet";
 import './../styles/App.css';
 
 const App = () => {
-  return (
-    <div>
-        <Greet>
-    </div>
-  )
+  return (<Greet />)
 }
 
 export default App
